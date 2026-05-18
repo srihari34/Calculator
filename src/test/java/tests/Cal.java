@@ -25,7 +25,7 @@ public class Cal {
 		
       sc.close();
 	}
-     // UserB - Added Addition method
+     // UserB - Added Addition method written by user B
 	private void add(int x, int y) {
 		
 		int c = x + y;
