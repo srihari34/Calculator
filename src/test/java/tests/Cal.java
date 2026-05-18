@@ -18,10 +18,14 @@ public class Cal {
 		{
 			ca.add(a,b);
 		}
+		if(oper == 2) 
+		{
+           ca.subtract(a, b);
+        }
 		
       sc.close();
 	}
-
+UserB - Added Addition method
 	private void add(int x, int y) {
 		
 		int c = x + y;
@@ -30,6 +34,13 @@ public class Cal {
 		
 	}
 	
-	//Subtraction is pending
+
+	// UserB - Added Subtraction method
+     private void subtract(int x, int y) 
+	 {
+       int c = x - y;
+       System.out.println("You have selected '2' ie Subtraction");
+       System.out.println("And the Subtraction of 2 Numbers is : " + c);
+       }
 
 }
