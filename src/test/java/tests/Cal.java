@@ -22,9 +22,18 @@ public class Cal {
 		{
            ca.subtract(a, b);
         }
+		
 		if(oper == 3) {
 		    ca.multiply(a, b);
 		}
+
+		if(oper == 4) {
+    ca.divide(a, b);
+    }
+		
+
+		
+
       sc.close();
 	}
 
@@ -45,11 +54,26 @@ public class Cal {
        System.out.println("You have selected '2' ie Subtraction");
        System.out.println("And the Subtraction of 2 Numbers is : " + c);
        }
-  // UserA - Added Multiplication method
+
+	     // UserA - Added Multiplication method
      private void multiply(int x, int y) {
          int c = x * y;
          System.out.println("You have selected Multiplication");
          System.out.println("Result is : " + c);
      }
+	 
+	   // UserB - Added Division method
+     private void divide(int x, int y) {
+      if(y == 0) {
+        System.out.println("Division by zero not allowed!");
+          } else {
+        int c = x / y;
+        System.out.println("You have selected Division");
+        System.out.println("Result is : " + c);
+    }
+}
+
+
+
 
 }
