@@ -22,7 +22,9 @@ public class Cal {
 		{
            ca.subtract(a, b);
         }
-		
+		if(oper == 3) {
+		    ca.multiply(a, b);
+		}
       sc.close();
 	}
      // UserA - Added Addition method
@@ -42,5 +44,11 @@ public class Cal {
        System.out.println("You have selected '2' ie Subtraction");
        System.out.println("And the Subtraction of 2 Numbers is : " + c);
        }
+  // UserA - Added Multiplication method
+     private void multiply(int x, int y) {
+         int c = x * y;
+         System.out.println("You have selected Multiplication");
+         System.out.println("Result is : " + c);
+     }
 
 }
