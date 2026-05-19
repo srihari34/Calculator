@@ -30,14 +30,11 @@ public class Cal {
 		if(oper == 4) {
     ca.divide(a, b);
     }
-		
-
-		
-
       sc.close();
 	}
 	
-	// UserA - Added Modulus method pending
+	// UserA - Added Modulus method pending is done
+	// This is for git fetch testing
 
      // UserA - Added Addition method
 	private void add(int x, int y) {
