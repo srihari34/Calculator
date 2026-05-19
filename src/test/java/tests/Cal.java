@@ -30,6 +30,10 @@ public class Cal {
 		if(oper == 4) {
     ca.divide(a, b);
     }
+		
+		if(oper == 5) {
+		    ca.modulus(a, b);
+		}
       sc.close();
 	}
 	
@@ -71,6 +75,12 @@ public class Cal {
         System.out.println("Result is : " + c);
     }
 }
+  // UserA - Added Modulus method
+     private void modulus(int x, int y) {
+         int c = x % y;
+         System.out.println("You have selected Modulus");
+         System.out.println("Result is : " + c);
+     }
 
      
 
