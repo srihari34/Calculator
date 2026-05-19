@@ -36,6 +36,8 @@ public class Cal {
 
       sc.close();
 	}
+	
+	// UserA - Added Modulus method pending
 
      // UserA - Added Addition method
 	private void add(int x, int y) {
@@ -73,6 +75,7 @@ public class Cal {
     }
 }
 
+     
 
 
 
