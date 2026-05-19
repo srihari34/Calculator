@@ -85,7 +85,5 @@ public class Cal {
      
 
 // UserB - Code reviewed and approved
-     
-  // This is wrong code - will be reverted
 
 }
